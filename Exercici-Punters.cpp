@@ -10,7 +10,7 @@ int main() {
     int Errors = 0;
     int* Punter1 = NULL;
     Punter1 = new int;
-    //Part del codi que esborra un punter i el mostra per pantalla per veure que esta buit
+    //Part del codi que esborra un punter i le mostra per pantalla per veure que esta buit
     cout << "Vols esborrar el Punter " << Punter1 << " ? 1. Si 2. No " << endl;
     cin >> opcio;
 
@@ -21,7 +21,7 @@ int main() {
         cout << Punter1 << endl;//Mostro el punter
         cout << endl;
     }
-    //Part del codi que esborra un punter i le mostra per pantalla per veure que esta buit
+    //Part del codi que esborra un punter i el mostra per pantalla per veure que esta buit
     char* arrayDinamic = new char[40];
     cout << "Introdueix un text per l'array" << endl;
     cin >> arrayDinamic;
@@ -42,7 +42,7 @@ int main() {
         cout << endl;
     }
 
-    //Part del codi que mostra una variable dinamica que ja he esborrat
+    //Part del codi que mostra el valor d'una variable dinamica que ja he esborrat
     cout << "Aquest codi pot causar errors, vols executar-lo? 1. Si 2. No" << endl;
     cin >> Errors;
     if (Errors == 1) {
