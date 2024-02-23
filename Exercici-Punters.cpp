@@ -10,7 +10,7 @@ int main() {
     int Errors = 0;
     int* Punter1 = NULL;
     Punter1 = new int;
-    //Part del codi que esborra un punter i le mostra per pantalla per veure que esta buit
+    //Part del codi que esborra un punter i el mostra per pantalla per veure que esta buit
     cout << "Vols esborrar el Punter " << Punter1 << " ? 1. Si 2. No " << endl;
     cin >> opcio;
 
