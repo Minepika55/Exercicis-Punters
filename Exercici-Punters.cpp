@@ -17,7 +17,8 @@ int main() {
     if (opcio == 1) {
 
         delete Punter1;//Esborro el punter
-        cout << Punter1 << endl;//Mostro le punter
+        cout << "Aixi queda el punter buit:" << endl;
+        cout << Punter1 << endl;//Mostro el punter
         cout << endl;
     }
     //Part del codi que esborra un punter i le mostra per pantalla per veure que esta buit
